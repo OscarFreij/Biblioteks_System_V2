@@ -1,0 +1,11 @@
+D:\git\Biblioteks_System_V2\bin\Debug\Biblioteks_System_V2.exe.config
+D:\git\Biblioteks_System_V2\bin\Debug\Biblioteks_System_V2.exe
+D:\git\Biblioteks_System_V2\bin\Debug\Biblioteks_System_V2.pdb
+D:\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.csprojAssemblyReference.cache
+D:\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.Properties.Resources.resources
+D:\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.csproj.GenerateResource.cache
+D:\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.exe
+D:\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.pdb
+D:\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.MainForm.resources
+D:\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.CreateBookForm.resources
+D:\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.BookForm.resources
