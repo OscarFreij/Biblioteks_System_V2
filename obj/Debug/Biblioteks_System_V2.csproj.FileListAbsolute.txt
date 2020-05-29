@@ -9,3 +9,14 @@ D:\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.pdb
 D:\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.MainForm.resources
 D:\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.CreateBookForm.resources
 D:\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.BookForm.resources
+\\fs1.ad.ssis.nu\18osfr\Documents\git\Biblioteks_System_V2\bin\Debug\Biblioteks_System_V2.exe.config
+\\fs1.ad.ssis.nu\18osfr\Documents\git\Biblioteks_System_V2\bin\Debug\Biblioteks_System_V2.exe
+\\fs1.ad.ssis.nu\18osfr\Documents\git\Biblioteks_System_V2\bin\Debug\Biblioteks_System_V2.pdb
+\\fs1.ad.ssis.nu\18osfr\Documents\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.csprojAssemblyReference.cache
+\\fs1.ad.ssis.nu\18osfr\Documents\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.BookForm.resources
+\\fs1.ad.ssis.nu\18osfr\Documents\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.CreateBookForm.resources
+\\fs1.ad.ssis.nu\18osfr\Documents\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.MainForm.resources
+\\fs1.ad.ssis.nu\18osfr\Documents\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.Properties.Resources.resources
+\\fs1.ad.ssis.nu\18osfr\Documents\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.csproj.GenerateResource.cache
+\\fs1.ad.ssis.nu\18osfr\Documents\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.exe
+\\fs1.ad.ssis.nu\18osfr\Documents\git\Biblioteks_System_V2\obj\Debug\Biblioteks_System_V2.pdb
