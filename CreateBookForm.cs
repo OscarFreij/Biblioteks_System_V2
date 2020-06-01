@@ -13,6 +13,7 @@ namespace Biblioteks_System_V2
     public partial class CreateBookForm : Form
     {
         public MainForm mainForm { get; private set; }
+        public Core.Library activeLibrary { get; private set; }
         public CreateBookForm(MainForm mainForm)
         {
             this.mainForm = mainForm;
@@ -21,6 +22,24 @@ namespace Biblioteks_System_V2
             foreach (var item in this.mainForm.LibraryDropdown.Items)
             {
                 this.LibrarySelectionDropdown.Items.Add(item);
+            }
+
+            if (this.LibrarySelectionDropdown.SelectedItem != null)
+            {
+                string SelectedName = this.LibrarySelectionDropdown.SelectedItem.ToString().Substring(this.LibrarySelectionDropdown.SelectedItem.ToString().IndexOf(':') + 2);
+
+                foreach (Core.Library library in this.mainForm.LibraryList)
+                {
+                    Console.WriteLine(library.Name);
+                    if (SelectedName == library.Name)
+                    {
+                        activeLibrary = library;
+                    }
+                }
+            }
+            else
+            {
+                activeLibrary = this.mainForm.LibraryList[0];
             }
 
         }
@@ -35,7 +54,6 @@ namespace Biblioteks_System_V2
         {
             if (this.TitleInput.Text != "" && this.AuthorInput.Text != "" && this.LibrarySelectionDropdown.SelectedItem != null)
             {
-                Core.Library activeLibrary;
 
                 string SelectedName = this.LibrarySelectionDropdown.SelectedItem.ToString().Substring(this.LibrarySelectionDropdown.SelectedItem.ToString().IndexOf(':') + 2);
 

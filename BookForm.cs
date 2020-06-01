@@ -44,6 +44,26 @@ namespace Biblioteks_System_V2
 
             this.LibrarySelectionDropdown.SelectedItem = mainForm.LibraryDropdown.SelectedItem;
 
+
+            try
+            {
+                foreach (string Genere in this.OldLibrary.AvailibleGenreList)
+                {
+                    if (this.Book.GenreList.Contains(Genere))
+                    {
+                        this.GenreSelectionBox.Items.Add(Genere, true);
+                    }
+                    else
+                    {
+                        this.GenreSelectionBox.Items.Add(Genere, false);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("ERROR:" + e);
+            }
+
         }
 
         private void CloseBtn_Click(object sender, EventArgs e)

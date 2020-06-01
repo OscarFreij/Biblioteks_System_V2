@@ -63,15 +63,14 @@
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel5, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 49F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 49F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 49F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 43F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(505, 555);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(379, 451);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanel4
@@ -82,21 +81,19 @@
             this.tableLayoutPanel4.Controls.Add(this.label2, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.TitleInput, 1, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(4, 4);
-            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(497, 41);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(373, 34);
             this.tableLayoutPanel4.TabIndex = 0;
             // 
             // label2
             // 
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Location = new System.Drawing.Point(4, 0);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(3, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 41);
+            this.label2.Size = new System.Drawing.Size(68, 34);
             this.label2.TabIndex = 0;
             this.label2.Text = "Title:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -104,37 +101,35 @@
             // TitleInput
             // 
             this.TitleInput.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TitleInput.Location = new System.Drawing.Point(103, 7);
-            this.TitleInput.Margin = new System.Windows.Forms.Padding(4, 7, 4, 4);
+            this.TitleInput.Location = new System.Drawing.Point(77, 6);
+            this.TitleInput.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
             this.TitleInput.Name = "TitleInput";
-            this.TitleInput.Size = new System.Drawing.Size(390, 22);
+            this.TitleInput.Size = new System.Drawing.Size(293, 20);
             this.TitleInput.TabIndex = 1;
             // 
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.GenreSelectionBox, 0, 1);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(4, 151);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 123);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(497, 357);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(373, 290);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Location = new System.Drawing.Point(4, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(489, 37);
+            this.label1.Size = new System.Drawing.Size(367, 30);
             this.label1.TabIndex = 0;
             this.label1.Text = "Genres:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -143,14 +138,9 @@
             // 
             this.GenreSelectionBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.GenreSelectionBox.FormattingEnabled = true;
-            this.GenreSelectionBox.Items.AddRange(new object[] {
-            "REEEEEEEEEEEE",
-            "RE",
-            "TEST 1"});
-            this.GenreSelectionBox.Location = new System.Drawing.Point(4, 41);
-            this.GenreSelectionBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GenreSelectionBox.Location = new System.Drawing.Point(3, 33);
             this.GenreSelectionBox.Name = "GenreSelectionBox";
-            this.GenreSelectionBox.Size = new System.Drawing.Size(489, 312);
+            this.GenreSelectionBox.Size = new System.Drawing.Size(367, 254);
             this.GenreSelectionBox.TabIndex = 1;
             // 
             // tableLayoutPanel3
@@ -161,21 +151,19 @@
             this.tableLayoutPanel3.Controls.Add(this.label4, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.LibrarySelectionDropdown, 1, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(4, 102);
-            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 83);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(497, 41);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(373, 34);
             this.tableLayoutPanel3.TabIndex = 2;
             // 
             // label4
             // 
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label4.Location = new System.Drawing.Point(4, 0);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(3, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 41);
+            this.label4.Size = new System.Drawing.Size(68, 34);
             this.label4.TabIndex = 0;
             this.label4.Text = "Library: ";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -184,10 +172,10 @@
             // 
             this.LibrarySelectionDropdown.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LibrarySelectionDropdown.FormattingEnabled = true;
-            this.LibrarySelectionDropdown.Location = new System.Drawing.Point(103, 7);
-            this.LibrarySelectionDropdown.Margin = new System.Windows.Forms.Padding(4, 7, 4, 4);
+            this.LibrarySelectionDropdown.Location = new System.Drawing.Point(77, 6);
+            this.LibrarySelectionDropdown.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
             this.LibrarySelectionDropdown.Name = "LibrarySelectionDropdown";
-            this.LibrarySelectionDropdown.Size = new System.Drawing.Size(390, 24);
+            this.LibrarySelectionDropdown.Size = new System.Drawing.Size(293, 21);
             this.LibrarySelectionDropdown.TabIndex = 1;
             // 
             // tableLayoutPanel6
@@ -198,22 +186,20 @@
             this.tableLayoutPanel6.Controls.Add(this.AddBtn, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.CloseBtn, 1, 0);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(4, 516);
-            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(3, 419);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 1;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(497, 35);
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28F));
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(373, 29);
             this.tableLayoutPanel6.TabIndex = 4;
             // 
             // AddBtn
             // 
             this.AddBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AddBtn.Location = new System.Drawing.Point(4, 4);
-            this.AddBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AddBtn.Location = new System.Drawing.Point(3, 3);
             this.AddBtn.Name = "AddBtn";
-            this.AddBtn.Size = new System.Drawing.Size(240, 27);
+            this.AddBtn.Size = new System.Drawing.Size(180, 23);
             this.AddBtn.TabIndex = 0;
             this.AddBtn.Text = "Add Book";
             this.AddBtn.UseVisualStyleBackColor = true;
@@ -222,10 +208,9 @@
             // CloseBtn
             // 
             this.CloseBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CloseBtn.Location = new System.Drawing.Point(252, 4);
-            this.CloseBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CloseBtn.Location = new System.Drawing.Point(189, 3);
             this.CloseBtn.Name = "CloseBtn";
-            this.CloseBtn.Size = new System.Drawing.Size(241, 27);
+            this.CloseBtn.Size = new System.Drawing.Size(181, 23);
             this.CloseBtn.TabIndex = 1;
             this.CloseBtn.Text = "Cancel";
             this.CloseBtn.UseVisualStyleBackColor = true;
@@ -239,21 +224,19 @@
             this.tableLayoutPanel5.Controls.Add(this.label3, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.AuthorInput, 1, 0);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(4, 53);
-            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 43);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(497, 41);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(373, 34);
             this.tableLayoutPanel5.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Location = new System.Drawing.Point(4, 0);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(3, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 41);
+            this.label3.Size = new System.Drawing.Size(68, 34);
             this.label3.TabIndex = 0;
             this.label3.Text = "Author: ";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -261,21 +244,20 @@
             // AuthorInput
             // 
             this.AuthorInput.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AuthorInput.Location = new System.Drawing.Point(103, 7);
-            this.AuthorInput.Margin = new System.Windows.Forms.Padding(4, 7, 4, 6);
+            this.AuthorInput.Location = new System.Drawing.Point(77, 6);
+            this.AuthorInput.Margin = new System.Windows.Forms.Padding(3, 6, 3, 5);
             this.AuthorInput.Name = "AuthorInput";
-            this.AuthorInput.Size = new System.Drawing.Size(390, 22);
+            this.AuthorInput.Size = new System.Drawing.Size(293, 20);
             this.AuthorInput.TabIndex = 1;
             // 
             // CreateBookForm
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(505, 555);
+            this.ClientSize = new System.Drawing.Size(379, 451);
             this.ControlBox = false;
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "CreateBookForm";
             this.Text = "1";
             this.tableLayoutPanel1.ResumeLayout(false);

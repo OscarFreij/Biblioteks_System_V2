@@ -14,6 +14,7 @@ namespace Biblioteks_System_V2
             public int NextBookId { get; private set; }
             public string Name { get; private set; }
             public List<Book> BookList { get; private set; }
+            public List<string> AvailibleGenreList { get; private set; }
 
             public Library(int Id, string Name)
             {
@@ -22,8 +23,9 @@ namespace Biblioteks_System_V2
                 this.Name = Name;
 
                 this.BookList = new List<Book>();
+                this.AvailibleGenreList = new List<string>();
             }
-
+             
             public bool AddBook(string Title, string Author)
             {
                 try
@@ -49,12 +51,15 @@ namespace Biblioteks_System_V2
             public string Author { get; private set; }
             public bool Loaned { get; private set; }
 
+            public List<string> GenreList { get; private set; }
+
             public Book(int Id, string Title, string Author)
             {
                 this.Id = Id;
                 this.Titel = Title;
                 this.Author = Author;
                 this.Loaned = false;
+                this.GenreList = new List<string>();
             }
 
             public Book(int Id, string Title, string Author,  bool Loaned)
@@ -63,6 +68,21 @@ namespace Biblioteks_System_V2
                 this.Titel = Title;
                 this.Author = Author;
                 this.Loaned = Loaned;
+                this.GenreList = new List<string>();
+            }
+
+            public bool SetGenre(List<string> NewGenreList)
+            {
+                try
+                {
+                    this.GenreList = NewGenreList;
+                    return true;
+                }
+                catch(Exception e)
+                {
+                    Console.WriteLine("ERROR: " + e);
+                    return false;
+                }
             }
         }
     }

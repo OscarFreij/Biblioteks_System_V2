@@ -31,6 +31,7 @@ namespace Biblioteks_System_V2
 
             //var row = new string[] { "0", "Hello", "World!", "Yes" };
 
+
             this.activeLibrary = LibraryList[0];
 
             if (LibraryDropdown.SelectedItem != null)
@@ -54,6 +55,19 @@ namespace Biblioteks_System_V2
             {
                 this.activeLibrary = LibraryList[0];
             }
+
+            for (int i = 0; i < 5; i++)
+            {
+                this.activeLibrary.AvailibleGenreList.Add("Genre: "+i);
+            }
+
+
+            foreach (string Genere in this.activeLibrary.AvailibleGenreList)
+            {
+                this.GenreSelectionBox.Items.Add(Genere);
+            }
+
+
 
             for (int i = 0; i < 2; i++)
             {
